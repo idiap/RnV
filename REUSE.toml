@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: 2025 Idiap Research Institute
+# SPDX-FileContributor: Karl El Hajal
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+version = 1
+SPDX-PackageName = "rnv"
+SPDX-PackageSupplier = "Karl El Hajal <karl.elhajal@idiap.ch>"
+
+[[annotations]]
+path = "poetry.lock"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Idiap Research Institute"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "rnv/vocoder/hifigan/config_v1_wavlm.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020 Jungil Kong"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "assets/RnV.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Idiap Research Institute"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/bad_utts_torgo"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Idiap Research Institute"
+SPDX-License-Identifier = "CC0-1.0"
